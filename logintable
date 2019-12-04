@@ -1,6 +1,0 @@
-CREATE TABLE "logingtable"
-("loginid" "data type for column 1" [column 1 constraint(s)],
- "Username" "data type for column 2" [column 2 constraint(s)],
- "Password" "data type for column 2" [column 2 constraint(s)],
-    ...
-    [table constraint(s)] );
