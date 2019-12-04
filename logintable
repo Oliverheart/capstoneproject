@@ -1,5 +1,0 @@
-CREATE TABLE loginpage
-(
-idLogin int, auto inc
-Username varchar(255),
-Password varchar(255),
