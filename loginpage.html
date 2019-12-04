@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        form {border: 3px solid #f12923;}
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #c3cc2a;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: rgba(81, 49, 255, 0);
+            color: #000000;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        {
+            text-align: center;
+        ;
+        }
+        .container {
+            padding: 16px;
+        }
+        @media screen and (max-width: 300px) {
+        }
+
+        #button {
+        }
+    </style>
+    <title>Login Page</title>
+</head>
+<body>
+
+<h2>Login Form</h2>
+<div class="container">
+    <label><b>Username</b></label>
+    <label>
+        <input type="text" placeholder="Enter Username" name="login" required>
+    </label>
+
+    <label><b>Password</b></label>
+    <label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    </label>
+
+    <button>
+        <input type="button" name="submit" value="Login" onclick="location.href = 'bookingpage.html';">
+    </button>
+</div>
+
+<div id="button">
+    <a href="register.html"><button>Register</button></a>
+</div>
+
+</body>
+</html>
+
